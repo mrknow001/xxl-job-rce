@@ -253,3 +253,8 @@ Header：
             }
         }
 ```
+
+## 参考链接
+https://www.xuxueli.com/xxl-job/
+https://github.com/jas502n/xxl-job
+https://github.com/xuxueli/xxl-job/
