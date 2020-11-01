@@ -19,5 +19,5 @@ XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅�
   "broadcastTotal": 0
 }
 
-![]https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-powershell.png
-![]https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-python.png
+![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-powershell.png)
+![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-python.png)
