@@ -3,6 +3,9 @@
 XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅速、学习简单、轻量级、易扩展。
 在xxl-job<= 2.2.0版本存在未授权命令执行
 
+官方GitHub地址：https://github.com/xuxueli/xxl-job
+官方文档https://www.xuxueli.com/xxl-job/
+
 ## payload:
 ```
 {
@@ -64,3 +67,34 @@ content-length: 646
 "
 }
 ```
+
+## 官方公开api
+### 调度中心 RESTful API
+
+API服务位置：com.xxl.job.core.biz.AdminBiz （ com.xxl.job.admin.controller.JobApiController ）
+API服务请求参考代码：com.xxl.job.adminbiz.AdminBizTest
+
+#### 任务回调
+```
+    说明：执行器执行完任务后，回调任务结果时使用
+    ------
+    地址格式：{调度中心跟地址}/callback
+    Header：
+        XXL-JOB-ACCESS-TOKEN : {请求令牌}
+    请求数据格式如下，放置在 RequestBody 中，JSON格式：
+        [{
+            "logId":1,              // 本次调度日志ID
+            "logDateTim":0,         // 本次调度日志时间
+            "executeResult":{
+                "code": 200,        // 200 表示任务执行正常，500表示失败
+                "msg": null
+            }
+        }]
+    响应数据格式：
+        {
+          "code": 200,      // 200 表示正常、其他失败
+          "msg": null      // 错误提示消息
+        }
+```
+
+
