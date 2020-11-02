@@ -7,7 +7,7 @@ https://github.com/mrknow001/xxl-job-rce/releases/download/2.20/xxl-job-executor
 
 ### 搭建方式
 
-1、本地启动mysql数据库（账号/密码：root/root）
+1、本地启动mysql数据库导入tables_xxl_job.sql文件，库名为xxl_job（账号/密码：root/root）
 
 2、java -jar xxl-job-admin-2.2.0.jar
 
