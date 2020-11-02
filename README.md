@@ -7,7 +7,7 @@ XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅�
 
 官方GitHub地址：https://github.com/xuxueli/xxl-job
 
-官方文档https://www.xuxueli.com/xxl-job/
+官方文档：https://www.xuxueli.com/xxl-job/
 
 ## payload:
 ```
