@@ -38,6 +38,9 @@ python3 xxl-job-poc.py 192.168.229.146 -c calc -m shell -p 9999
 ![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-powershell.png)
 ![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-python.png)
 
+## GUI工具界面
+![image](https://github.com/mrknow001/xxl-job-rce/blob/main/xxl-job-GUI.png)
+
 
 ## 根据异常报错指纹-快速发现目标机器
 
