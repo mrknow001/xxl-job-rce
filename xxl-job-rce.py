@@ -38,7 +38,7 @@ def exp(url,cmd,method):
 
 
 
-    response = requests.post(url=url+"/run",headers=headers,data=data)
+    response = requests.post(url=url+"/run",headers=headers,data=data,allow_redirects=False)
     if response.status_code == 200:
         print("commond excute success")
     else:
